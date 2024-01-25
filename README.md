@@ -210,6 +210,3 @@ create_gif(input_folder, output_file, duration)
 ![](output.gif)
 
 
-```python
-
-```
