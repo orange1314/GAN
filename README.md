@@ -200,7 +200,7 @@ def create_gif(input_folder, output_file, duration):
     imageio.mimsave(output_file, images, duration=duration)
 
 # 使用示例
-input_folder = r'C:\Users\B20770\Desktop\Lin\深度學習\GAN'  # 將此路徑替換為您圖像的存儲位置
+input_folder = 將此路徑替換為您圖像的存儲位置
 output_file = 'output.gif'  # GIF的輸出文件名
 duration = 0.5  # 每幀之間的持續時間，以秒為單位
 
