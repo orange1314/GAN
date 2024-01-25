@@ -10,9 +10,9 @@ GAN 的核心概念是由兩個神經網絡，生成器（Generator）和鑑別�
 
 GAN 的訓練過程可以看作是一個迷你-最大博弈遊戲（minimax game），其中生成器和鑑別器各自嘗試最小化和最大化以下目標函數：
 
-$
-\min_{G} \max_{D} V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_{z}(z)}[\log (1 - D(G(z)))]
-$
+
+$\min_{G} \max_{D} V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}(x)}[\log D(x)]$ + $\mathbb{E}_{z \sim p_{z}(z)}[\log (1 - D(G(z)))]$
+
 
 這裡：
 - $\mathbb{E}_{x \sim p_{\text{data}}(x)}[\log D(x)] $ 是鑑別器評估真實數據的期望對數概率。鑑別器希望
